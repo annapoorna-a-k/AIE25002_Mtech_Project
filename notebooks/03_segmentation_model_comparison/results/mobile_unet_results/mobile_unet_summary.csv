@@ -1,0 +1,2 @@
+model,val_dice,val_iou
+mobile_unet,0.9295510649681091,0.8689635396003723
