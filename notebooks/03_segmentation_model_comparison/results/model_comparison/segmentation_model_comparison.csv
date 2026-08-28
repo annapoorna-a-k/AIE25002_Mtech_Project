@@ -1,0 +1,4 @@
+Model,Best Epoch,Best Val Dice,Val IoU,Val Loss,Train Dice,Train IoU,Train Loss
+unet_resnet34,24,0.953,0.9106,0.1468,0.9509,0.9066,0.1423
+deeplabv3plus,22,0.945,0.896,0.172,0.9488,0.9028,0.1481
+mobile_unet,23,0.9296,0.869,0.2126,0.9265,0.8636,0.213
