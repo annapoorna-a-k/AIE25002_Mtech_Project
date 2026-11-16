@@ -85,12 +85,13 @@ The Streamlit app (in [`app/`](app)) takes a photo and optional patient details 
 │   ├── models/               ONNX and XGBoost model files
 │   ├── requirements.txt      core dependencies
 │   └── requirements-llm.txt  optional: AI-written report (Qwen + LoRA)
+├── notebooks/                training and experiment notebooks (see notebooks/README.md)
 ├── docs/images/              figures used in this README
 ├── INSTALL.md                installation and run guide
 └── README.md
 ```
 
-Training and experiment notebooks will be added under `notebooks/`.
+Training and experiment notebooks are in [`notebooks/`](notebooks), numbered in pipeline order.
 
 ## Quick start
 
@@ -103,6 +104,18 @@ streamlit run app.py
 ```
 
 See [INSTALL.md](INSTALL.md) for full instructions, including the optional AI-written report.
+
+## Development history
+
+| Period | Work |
+|---|---|
+| July 2026 | Literature review, metadata EDA |
+| August 2026 | Oral-cavity segmentation: U-Net + ResNet34, DeepLabV3+ and Mobile U-Net; model comparison; patient-level split |
+| September 2026 | Mobile U-Net tuning and fine-tuning, lesion-segmentation experiments, crop generation, augmentation, four-class backbone comparison |
+| October 2026 | EfficientNet-B0 tuning, attention experiments, YOLO26 detect-crop-classify, synthetic data generation (diffusion, StarGAN) |
+| November 2026 | Binary screening with metadata fusion, explainability, report-generation LLM, Streamlit application, documentation |
+
+> **Note on the commit history:** the experiments were carried out in Kaggle notebooks and the work was moved to this repository in November 2026. The commit history was reconstructed at that point: each notebook commit is dated to when that stage was run, taken from the run logs inside the notebooks where available and approximate otherwise.
 
 ## Tech stack
 
