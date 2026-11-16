@@ -11,10 +11,25 @@
 </p>
 
 <p align="center">
+  <a href="https://oralscreen-ai-website-3zmtkcvdzt8snqsdeyvhqj.streamlit.app/"><img src="https://img.shields.io/badge/Project%20website-open-C8553D?style=for-the-badge" alt="Project website"></a>
+  <a href="https://oralscreen-ai-3nloatzwnkaypoqubwkfpy.streamlit.app/"><img src="https://img.shields.io/badge/Screening%20app-try%20it-0B3C5D?style=for-the-badge&logo=streamlit&logoColor=white" alt="Screening app"></a>
+</p>
+
+<p align="center">
   <img src="docs/images/banner.jpg" alt="Banner" width="760">
 </p>
 
 ---
+
+## Links
+
+| | Link |
+|---|---|
+| Project website | <https://oralscreen-ai-website-3zmtkcvdzt8snqsdeyvhqj.streamlit.app/> |
+| Screening app (live demo) | <https://oralscreen-ai-3nloatzwnkaypoqubwkfpy.streamlit.app/> |
+| Screening app source (deployed version) | <https://github.com/annapoorna-a-k/oralscreen-ai> |
+| Project website source | <https://github.com/annapoorna-a-k/oralscreen-ai-website> |
+| Dataset (Zenodo) | <https://zenodo.org/records/10664056> |
 
 ## Overview
 
