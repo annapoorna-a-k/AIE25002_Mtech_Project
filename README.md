@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/ONNX%20Runtime-CPU-005CED" alt="ONNX Runtime">
   <img src="https://img.shields.io/badge/XGBoost-fusion-2E7D32" alt="XGBoost">
   <img src="https://img.shields.io/badge/Status-research%20prototype-orange" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License: MIT">
 </p>
 
 <p align="center">
@@ -88,6 +89,7 @@ The Streamlit app (in [`app/`](app)) takes a photo and optional patient details 
 ├── notebooks/                training and experiment notebooks (see notebooks/README.md)
 ├── docs/images/              figures used in this README
 ├── INSTALL.md                installation and run guide
+├── LICENSE                   MIT licence
 └── README.md
 ```
 
@@ -129,6 +131,10 @@ PyTorch · timm · TensorFlow / Keras · ONNX Runtime · XGBoost · scikit-learn
 - S. M. Lundberg and S.-I. Lee, "A unified approach to interpreting model predictions," *NeurIPS*, 2017.
 - E. J. Hu *et al.*, "LoRA: Low-rank adaptation of large language models," *ICLR*, 2022.
 - Qwen Team, "Qwen2.5 Technical Report," arXiv:2412.15115, 2024.
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The dataset is not included and remains under its original licence; the illustration used in the banner and app belongs to its respective owner.
 
 ## Author
 
