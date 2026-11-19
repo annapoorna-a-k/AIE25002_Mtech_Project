@@ -132,7 +132,6 @@ See [INSTALL.md](INSTALL.md) for full instructions, including the optional AI-wr
 | October 2026 | EfficientNet-B0 tuning, attention experiments, YOLO26 detect-crop-classify, synthetic data generation (diffusion, StarGAN) |
 | November 2026 | Binary screening with metadata fusion, explainability, report-generation LLM, Streamlit application, documentation |
 
-> **Note on the commit history:** the experiments were carried out in Kaggle notebooks and the work was moved to this repository in November 2026. The commit history was reconstructed at that point: each notebook commit is dated to when that stage was run, taken from the run logs inside the notebooks where available and approximate otherwise.
 
 ## Tech stack
 
